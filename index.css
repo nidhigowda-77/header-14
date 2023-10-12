@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #2f1893;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 65px;
+  position: relative;
+}
+.items {
+  display: flex;
+  text-decoration: none;
+  gap: 26px;
+  width: 66rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-right: -4rem;
+  /* margin-left: 495px; */
+  justify-content: flex-end;
+}
+
+.items li {
+  padding-top: 6px;
+  font-weight: 500;
+}
+.items li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.startup {
+  padding-left: 200px;
+  color: white;
+  font-weight: 700;
+  width: 480px;
+  font-size: 23px;
+}
+.purchaseButton {
+  background-color: #e93a7d;
+  border-radius: 100px;
+  color: white;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  width: 157px;
+  height: 40px;
+}
+.overview {
+  opacity: 50%;
+  font-weight: 18px;
+}
+/*for the second layout*/
+.heading {
+  color: white;
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.desc {
+  color: white;
+  width: 50%;
+  font-weight: 500;
+  width: 17rem;
+  font-size: 22px;
+  padding-top: 8px;
+}
+.mainClassForDesc {
+  display: flex;
+  margin-left: 190px;
+  padding-top: 80px;
+  flex-direction: column;
+}
+.mainClassForDesc button {
+  margin-top: 30px;
+  background-color: #e93a7d;
+  border-radius: 100px;
+  color: white;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  width: 157px;
+  height: 40px;
+}
+.form {
+  display: flex;
+}
+
+/*for the form page*/
+.allContent {
+  display: flex;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24rem;
+  margin-top: 6rem;
+  color: white;
+  width: 470px;
+  height: 600px;
+  font-size: 700;
+  background-color: white;
+  border-radius: 6px;
+  border-color: rgba(235, 234, 237, 1);
+}
+.form h3 {
+  padding-left: 95px;
+  padding-bottom: 22px;
+  color: rgba(30, 14, 98, 1);
+  font-weight: 700;
+  font-size: 42px;
+  margin-top: 30px;
+}
+form input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 8px 36px;
+  width: 360px;
+  height: 50px;
+  margin: 13px;
+  margin-left: 60px;
+}
+form div p {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+.checkbox {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 6px;
+}
+.checkbox p {
+  padding-left: 10px;
+}
+
+.checkbox input {
+  color: green;
+  width: 16px; /* Set the size of the checkmark */
+  height: 16px;
+  margin-top: 4px;
+}
+form > button {
+  width: 360px;
+  height: 40px;
+  background-color: rgba(72, 43, 231, 1);
+  border-radius: 25px;
+  margin-left: 60px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.or {
+  color: rgba(21, 20, 57, 0.4);
+  padding-left: 50%;
+  padding-top: 6px;
+}
+.twitter button {
+  background-color: rgba(29, 161, 242, 1);
+  width: 360px;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: 60px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/*already have an account*/
+
+.signIn {
+  color: rgba(37, 218, 197, 1);
+}
+
+.alreadyAccount {
+  display: flex;
+  color: rgba(21, 20, 57, 0.4);
+  margin-left: 7rem;
+  margin-top: 30px;
+}
+
+/*Divideer*/
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  margin-top: 30px;
+}
+
+.line1 {
+  flex-grow: 2; 
+  border-top: 2px solid rgba(235, 234, 237, 1);
+  margin: 0 10px;
+  margin-right: 5px;
+  padding-left: 147px;
+  margin-left: 73px; /* Adjust the spacing between the line and "OR" text */
+}
+
+span {
+  color: rgba(21, 20, 57, 0.4);
+  padding: 0 10px;
+}
+.line2{
+  flex-grow: 2; 
+  border-top: 2px solid rgba(235, 234, 237, 1);
+  margin: 0 10px;
+  margin-right: 5px;
+  padding-right: 147px;
+  margin-right: 73px;
+}
